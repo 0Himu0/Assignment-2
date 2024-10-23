@@ -366,6 +366,18 @@ nav a:hover, li:first-child a{
     background-position: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Media for Mobile*/
 
 @media screen and (max-width: 576px){
@@ -467,6 +479,58 @@ nav a:hover, li:first-child a{
         margin-bottom: 12px;
     }
 
+    /* Change Your Habits */
+    #Service{
+        z-index: 2;
+        position: relative;
+    }
+    
+    .service{
+        padding-top: 0px;
+        padding-bottom: 66px;
+    }
+    .service-container{
+        flex-direction: column;
+        gap: 36px;
+    }
+    
+    .service-heading{
+        width: 318px;
+        
+    }
+    
+    .service-heading>h1{
+        font-size: 32px;
+    }
+    
+    .join{
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        gap: 0;
+    }
+    
+    .join .text{
+        margin: auto;
+        width: 270px;
+    }
+    
+    .join .text button{
+        width: 270px;
+    }
+    
+    .join .text h1{
+        font-size: 32px;
+    }
+    
+    .join .img{
+        margin-bottom: 35px;
+        margin-top: 0px;
+        margin-left: 33px;
+        margin-right: 33px;
+        width: 270px;
+        height: 170px;
+    }
 
 
 }
