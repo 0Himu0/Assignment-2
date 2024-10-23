@@ -51,7 +51,6 @@ nav > .nav-logo{
 }
 
 .nav-options{
-    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 4px;
     height: 36px;
@@ -178,10 +177,18 @@ nav a:hover, li:first-child a{
     color: white;
     font-size:2.5rem ;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
+
+}
+
+#box-1 p{
+    margin: 0;
+    padding: 0;
 }
 
 #box-1 > div{
-    margin-top: 17px;
+    margin-top: 5px;
     margin-left: 24px;
     
 }
@@ -209,6 +216,17 @@ nav a:hover, li:first-child a{
     color: white;
     font-size: 1.75rem;
     font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+#box-2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.box-2-tuto{
+    margin-left: 7.5px;
 }
 
 #box-2 > div div:first-child{
@@ -856,7 +874,7 @@ footer p {
     }
 
     .nav-options{
-        display: none;
+        
     }
 
     /* header section */
