@@ -237,7 +237,7 @@ nav a:hover, li:first-child a{
     font-weight: 400;
 }
 
-/* Change Your Habits */
+/* Change Your Habits & Run an Extra mile */
 #Service{
     background-color:rgb(0, 0, 0);
     display: flex;
@@ -366,15 +366,368 @@ nav a:hover, li:first-child a{
     background-position: center;
 }
 
+/* BMI Calculator */
+#BMI {
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#BMI p, .bmi-calculator td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-heading{
+    text-align: left;
+    width: 620px;
+    margin-bottom: 58px;
+}
+
+.bmi-heading>p{
+    line-height: 24px;
+}
+
+.bmi-heading>h1{
+    color: white;
+    margin-bottom: 14px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi-calculator {
+    background-color: rgb(34, 34, 34);
+    padding: 52px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 175px;
+    width: 100%;
+}
+
+.bmi-calculator h3{
+    font-weight: 900;
+    font-size: 28px;
+    color: white;
+}
+
+.bmi-calculator table{
+    margin-top: 52px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.bmi-calculator table>thead th {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.bmi-calculator td, .bmi-calculator th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+}
+
+.calculator p {
+    width: 570px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+form input[type="submit"] {
+    padding: 16px 40px 16px 40px;
+    color: white;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 224px;
+    border: none;
+    background: rgb(230, 83, 60);
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+
+form div input[type="text"], #gender {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 0px 12px 20px;
+    border: none;
+    width: 282.5px;
+}
+
+#activity-factor{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 0px 12px 20px;
+    border: none;
+    width: 100%;
+    appearance: none;
+    background-image: url("assets/chevron-down-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: right 26px center;
+}
+
+#gender{
+    appearance: none;
+    background-image: url("assets/chevron-down-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: right 26px center;
+}
+
+#age{
+    width: 263.5px;
+}
+
+form input[type="text"]::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+form input[type="text"]:focus, form select:focus{
+    outline: none;
+}
+
+.calculator form > div {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 577px;
+}
+
+
+option{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: black;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.calculator form {
+    margin-top: 34px;
+}
+
+/* Meet Our Team */
+#About {
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#About p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.about-heading{
+    text-align: center;
+    width: 620px;
+    margin-bottom: 58px;
+}
+
+.about-heading>p{
+    line-height: 24px;
+}
+
+.about-heading>h1{
+    color: white;
+    margin-bottom: 14px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.about {
+    padding: 88px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team{
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: #ffffff1a;
+    display: flex;
+    justify-content: center;
+}
+
+.trainer div{
+    border-radius: 18px;
+    width: 326.67px;
+    height: 272px;
+}
+
+.trainer h3 {
+    color: white;
+}
+
+.trainer .text p{
+    margin-bottom: 20px;
+}
+
+.trainer .text{
+    display: flex;
+    justify-content: end;
+    align-items: first baseline;
+    flex-direction: column;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.t1, .t2, .t3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#trainer1 {
+    background: url(../B10A2-versatile-ui-main/images/trainer1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#trainer2 {
+    background: url(../B10A2-versatile-ui-main/images/trainer4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#trainer3 {
+    background: url(../B10A2-versatile-ui-main/images/trainer2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#trainer4 {
+    background: url(../B10A2-versatile-ui-main/images/trainer5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#trainer5 {
+    background: url(../B10A2-versatile-ui-main/images/trainer3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#trainer6 {
+    background: url(../B10A2-versatile-ui-main/images/trainer6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.trainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+/* extra work */
 
 
 
 
+/* footer */
 
+footer{
+    background: rgb(34, 34, 34);
+    padding-top: 66px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    width: 1059px;
+}
 
+.footer > div:first-child {
+    width: 415px;
+}
 
+.tittle{
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+.start h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+.start ul{
+    list-style: none;
+    padding: 0;
+}
+
+.start p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.start a{
+    text-decoration: none;
+}
+
+.copyright {
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1059px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 79px;
+}
+
+.copyright p{
+    margin-top: 36px;
+}
 
 
 
@@ -479,7 +832,7 @@ nav a:hover, li:first-child a{
         margin-bottom: 12px;
     }
 
-    /* Change Your Habits */
+    /* Change Your Habits & Run an Extra mile */
     #Service{
         z-index: 2;
         position: relative;
@@ -530,6 +883,110 @@ nav a:hover, li:first-child a{
         margin-right: 33px;
         width: 270px;
         height: 170px;
+    }
+
+    /* BMI Calculator */
+    .bmi-heading{
+        width: 353px;
+    }
+    .bmi-heading>h1{
+        font-size: 32px;
+    }
+    .bmi-calculator{
+        flex-direction: column;
+        padding-top: 34px;
+        padding-bottom: 43px;
+        padding-left: 20px;
+        gap: 42px;
+        width: 95%;
+    }
+    .bmi-calculator h3{
+    font-size: 16px;
+    }
+    .bmi-calculator table{
+        margin-top: 23px;
+    }
+    #gender{
+        width: 100%;
+    }
+    .calculator p{
+        width: 346px;
+    }
+    .calculator form > div{
+        width: 353px;
+    }
+    form div input[type="text"] {
+        width: 150.5px;
+    }
+    #age{
+        width: 150.5px;
+    }
+    .bmi-heading>p{
+        width: 346px;
+    }
+
+    /* Meet Our Team */
+    .about{
+        padding: 66px 20px;
+    }
+    .about-heading>h1{
+        font-size: 32px;
+    }
+
+    .about-heading{
+        width: 309px;
+    }
+    
+    .team {
+        width: 363px;
+        height: 1312px;
+    }
+
+    .trainer{
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 0px;
+        justify-content: start;
+    }
+
+    .trainer div{
+        height: 303px;
+    }
+
+
+    .t2{
+        margin-bottom: 323px;
+    }
+
+    .t1{
+        display: none;
+    }
+
+    /* extra work */
+
+
+    /* footer  */
+    footer{
+        padding-top: 44px;
+    }
+    .footer > div:last-child{
+        margin-top: 20px;
+    }
+
+    .footer > div:first-child {
+        width: 305px;
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        flex-direction: column;
+        width: 354px;
+        justify-content: center;
+    }
+    
+    .copyright{
+        width: 354px;
+        margin-top: 72px;
     }
 
 
