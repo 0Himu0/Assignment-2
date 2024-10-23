@@ -38,7 +38,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 0px 0px;
-    gap: 463px;
+    gap: 430px;
     flex-direction: row;
 }
 
@@ -57,6 +57,10 @@ nav > .nav-logo{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#icon-bar{
+    display: none;
 }
 
 nav > .nav-options > ul{
@@ -870,11 +874,11 @@ footer p {
     }
 
     nav{
-        gap: 197px;
+        gap: 170px;
     }
 
-    .nav-options{
-        
+    #icon-bar{
+        display: block;
     }
 
     /* header section */
